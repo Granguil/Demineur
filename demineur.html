@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Test</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h3>Nombre de Mines à Placer : <span id="mines"></span></h3>
+        <table id="test" style="border:solid">
+        </table>
+        <input placeholder="Colonne" id="col" type="number"><br>
+        <input placeholder="Ligne" id="ligne" type="number"><br>
+        <input placeholder="Mine" id="mine" type="number"><br>
+        <button id="NP">Nouvelle Partie</button>
+        <script src="jquery-3.3.1.js"></script>
+        <script src="creation.js"></script>
+        <script src="affichage.js"></script>
+        <script>
+            
+            let text;
+            let nbDem=0;
+            let loop=0;
+            let nbLigne=10;
+            let nbColonne=10;
+            let nbMine=20;
+            let nbMinePlace=nbMine;
+            let nbCaseDev=0;
+            let grille;
+            let zero=new Array();
+            creationGrille();
+            
+            
+        </script>
+    </body>
+</html>
